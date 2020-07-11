@@ -1,0 +1,297 @@
+# ~/.config/i3/config - configuration for browarek (Asus Eee PC 901)
+#
+# Author: Mateusz Loskot <mateusz@loskot.net>
+#
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+#
+# Sources and credits:
+# https://github.com/kalos/i3-config/
+#
+# {{{ variables
+# special keys
+#set $mod Mod4
+set $mod Mod1
+set $i3_path ~/.config/i3
+
+# default applications
+#set $term xfce4-terminal 
+set $term i3-sensible-terminal
+set $browser google-chrome-stable
+set $fm krusader
+set $jabber pidgin
+set $xirc hexchat
+# }}}
+
+# {{{ windows and workspaces orientation, layout and style
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# Orientation for new workspaces: <horizontal|vertical|auto>
+default_orientation horizontal
+# }}}
+
+# {{{ apparence
+# font for window titles. ISO 10646 = Unicode
+# i3 uses X core fonts (not Xft) for rendering window titles.
+# default:
+#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+#font pango:monospace 8 
+font pango:Orbitron 9
+
+# Terminus:
+#font -*-terminus-medium-r-normal-*-14-140-72-72-C-80-iso10646-1
+
+# Colors which i3 uses to draw the window decorations
+# Default:
+# class                 border  backgr. text    indicator
+client.focused          #4c7899 #285577 #ffffff #2e9ef4
+client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.unfocused        #333333 #222222 #888888 #292d2e
+client.urgent           #2f343a #900000 #ffffff #900000
+# }}}
+
+# define colors used
+set $bg-color            #2f343f
+set $inactive-bg-color   #2f343f
+set $text-color          #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color     #5294e2
+
+# {{{ keyboard bindings
+# start a terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+# alternative: $term urxvtcd
+# bindsym $mod+Return exec --no-startup-id $term
+bindsym $mod+Return exec --no-startup-id $term
+
+# start dmenu (a program launcher)
+bindsym control+$mod+d exec dmenu_run
+bindsym $mod+d exec j4-dmenu-desktop
+# alternative:
+#bindsym $mod+p exec --no-startup-id dmenu_run -i -b -nb '#444444' -nf '#dddddd' -sb '#692E81' -p 'Run:'
+
+# kill focused window
+bindsym $mod+Shift+Q kill
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+J move left
+bindsym $mod+Shift+K move down
+bindsym $mod+Shift+L move up
+bindsym $mod+Shift+colon move right
+
+# alternatively, you can use the cursor keys:
+#bindsym $mod+Shift+Left move left
+#bindsym $mod+Shift+Down move down
+#bindsym $mod+Shift+Up move up
+#bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym Mod1+f fullscreen
+
+# change container layout (stacked, tabbed, default)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout default
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindcode $mod+d focus child
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+exclam move container to workspace 1
+bindsym $mod+Shift+at move container to workspace 2
+bindsym $mod+Shift+numbersign move container to workspace 3
+bindsym $mod+Shift+dollar move container to workspace 4
+bindsym $mod+Shift+percent move container to workspace 5
+bindsym $mod+Shift+asciicircum move container to workspace 6
+bindsym $mod+Shift+ampersand move container to workspace 7
+bindsym $mod+Shift+asterisk move container to workspace 8
+bindsym $mod+Shift+parenleft move container to workspace 9
+bindsym $mod+Shift+parenright move container to workspace 10
+
+# Make the currently focused window a scratchpad
+bindsym $mod+o move scratchpad
+# Show the first scratchpad window
+bindsym $mod+i scratchpad show
+bindsym $mod+u [instance="krusader"] scratchpad show
+bindsym $mod+n [instance="evince"] scratchpad show
+bindsym $mod+m [instance="Pidgin"] scratchpad show
+
+# reload the configuration file
+bindsym $mod+Shift+C reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+R restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+E exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+# => 电源管理（Pause Break键呼出)
+set $mode_system 系统:锁屏(L) 注销(O) 关机(S) 重启(R) 取消(Esc)
+bindsym ctrl+F12 mode "$mode_system"
+#bindsym $mod+Pause mode "$mode_system"
+mode "$mode_system" {
+    bindsym l exec scrot -e 'convert $f -blur 15x15 $f && i3lock -i $f && rm $f', mode "default"
+    bindsym o exec i3-msg exit
+    bindsym s exec systemctl poweroff
+    bindsym r exec systemctl reboot
+    bindsym Escape mode "default"
+}
+# Lock the screen
+bindsym control+$mod+l exec scrot -e 'convert $f -blur 10x10 $f && i3lock -i $f && rm $f'
+#bindsym Mod4+l exec scrot -e 'convert $f -blur 10x10 $f && i3lock -i $f && rm $f'
+#bindsym $mod+l exec scrot -e 'convert $f -blur 10x10 $f && i3lock -i $f && rm $f'
+
+
+# open ... with ThinkVantage Button
+#bindsym XF86Launch1 ...
+
+# }}}
+
+# {{{ modes
+# resize window (you can also use the mouse for that)
+mode "resize" {
+    # These bindings trigger as soon as you enter the resize mode
+
+    bindsym j resize shrink width 2 px or 2 ppt
+    bindsym k resize grow height 2 px or 2 ppt
+    bindsym l resize shrink height 2 px or 2 ppt
+    bindsym semicolon resize grow width 2 px or 2 ppt
+
+    # same bindings, but for the arrow keys
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Enter resize mode
+bindsym $mod+r mode "resize"
+
+# Print full screen
+bindsym control+Shift+Mod4+3 exec scrot /tmp/%b%d::%H%M%S.png -e 'pyclip $f'
+# Print 
+bindsym --release control+Shift+Mod4+4 exec scrot /tmp/%b%d::%H%M%S.png -s -e 'pyclip $f'
+
+#volume
+bindsym Shift+$mod+u exec --no-startup-id amixer -q set Master 2dB+ unmute
+bindsym Shift+$mod+d exec --no-startup-id amixer -q set Master 2dB- unmute
+bindsym Shift+$mod+m exec --no-startup-id amixer -q set Headphone 100dB+ unmute
+# }}}
+
+# {{{ automatically putting clients on specific workspaces
+#assign [class="Firefox"] 1
+#assign [class="Chromium"] 1
+assign [class="Pidgin"] 1
+assign [class="Skype"] 1
+assign [class="HexChat"] 1
+#assign [class="telegram"] 2 
+#assign [class="google-chrome-stable"] 3 
+# }}}
+
+# {{{ automatically starting applications on i3 startup
+exec volumeicon
+# }}}
+
+# {{{ i3bar
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+#    id bar-0
+##        status_command i3status
+##        status_command i3status --config ~/.i3status.conf
+#    tray_output none
+#    position top
+#    status_command $i3_path/conky/conky-i3bar
+##    i3bar_command i3bar -t
+##    font pango:Monaco for Powerline 10;wqy-zenhei 10
+#
+#    colors {
+#    # Set the background color of i3bar
+#        focused_workspace  $bg-color          $bg-color          $text-color
+#        inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#        urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+#        background #10101000
+#    # Set the color of i3bar's text
+#        statusline #7f14ad
+#    }
+
+    id bar-0
+    tray_output primary
+    position bottom
+    status_command $i3_path/conky/conky-i3bar
+
+    colors {
+        background #24364F
+        statusline #CCCCCC
+
+        focused_workspace  #ffffff #285577
+        active_workspace   #cccccc #333333
+        inactive_workspace #999999 #222222
+        urgent_workspace   #ffffff #900000
+    }
+}
+# }}}
+
+# switch workspace
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
+# brightness control
+bindsym XF86MonBrightnessUp exec /usr/bin/xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec /usr/bin/xbacklight -dec 5
+
+for_window [class="^jetbrains-.+"][window_type=dialog] focus
+
+exec synergy
+#exec --no-startup-id xrandr --output VGA-0 --auto --output DVI-D-0 --auto --primary --left-of VGA-0
+#exec --no-startup-id xrandr --output DVI-D-0 --auto --output VGA-0 --auto --primary --left-of DVI-D-0
+#exec_always --no-startup-id xrandr --output VGA-0 --auto --output DVI-D-0 --auto --primary --left-of VGA-0
+#exec_always --no-startup-id xrandr --output DVI-D-0 --auto --primary --pos 0x0 --output VGA-0 --pos 1920x180 
+
+exec_always --no-startup-id xrandr --output DVI-D-0 --auto --primary --pos 0x0 --output VGA-0 --right-of DVI-D-0 
+workspace 1 output DVI-D-0
+workspace 2 output VGA-0
+
+# move current workspace to primary output
+bindsym $mod+x move workspace to output DVI-D-0
+bindsym $mod+c move workspace to output VGA-0

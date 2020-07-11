@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/
+*userdb/
+rime/build
+rime/sync
+rime/f_mysecretphrases.dict.yaml
+rime_bak
