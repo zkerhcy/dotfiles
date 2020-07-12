@@ -10,3 +10,5 @@ ln -fs ~/.vimrc ~/.config/nvim/init.vim
 ln -fs ~/dotfiles/.vim/coc-settings.json ~/.config/nvim/coc-settings.json
 
 ln -fs ~/dotfiles/.tern-project ~/.tern-project
+
+ln -fs ~/dotfiles/gpg-agent.conf ~/.gnupg/gpg-agent.conf
