@@ -1,6 +1,4 @@
-# configs
-
-⚙️ Workspace configs.
+# ⚙️ Workspace configs.
 
 ## Setup
 
