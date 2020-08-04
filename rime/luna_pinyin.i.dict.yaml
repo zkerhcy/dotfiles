@@ -34,159 +34,159 @@ use_preset_vocabulary: true
 
 # 网址、网站
 
-v2ex	v tex	10000
-V2EX	v tex	10001
-douban	dou ban
-imgur	im gur
-IMDb	im db
-Ingress	i g	100
-Instagram	in stagram
-Instagram	in s	10000
-Baidu	bai du
-Facebook	face book
-Facebook	f b	10000
-Google	go o gle
-Google	gu ge	10000
+v2ex	vtex	10000
+V2EX	vtex	10001
+douban	douban
+imgur	imgur
+IMDb	imdb
+Ingress	ig	100
+Instagram	instagram
+Instagram	ins	10000
+Baidu	baidu
+Facebook	facebook
+Facebook	fb	10000
+Google	google
+Google	guge	10000
 Twitter	twitter
-Twitter	t w	10000
-Weibo	wei bo	10000
-Plurk	p lurk
-QCon	q con
-Shadowsocks	s s	10000
-ShadowsocksR	s s	10000
+Twitter	tw	10000
+Weibo	weibo	10000
+Plurk	plurk
+QCon	qcon
+Shadowsocks	ss	10000
+ShadowsocksR	ss	10000
 TED	ted
-Taobao	tao bao	10000
-Yahoo	ya hoo
-Youku	you ku
-YouTube	you tube
-YouTube	y t b	10000
-ZeroNet	zero net
-Zhihu	zhi hu	10001
-知乎	zhi hu	10000
+Taobao	taobao	10000
+Yahoo	yahoo
+Youku	youku
+YouTube	youtube
+YouTube	ytb	10000
+ZeroNet	zeronet
+Zhihu	zhihu	10001
+知乎	zhihu	10000
 cnBeta	cnbeta
 infoQ	infoq
 
 # 电脑硬件厂商厂牌 & 硬件产品名
 
-Nvidia	n vidia
-Ruff	r u f f
-Xeon	x eon
-DJI	da jiang
+Nvidia	nvidia
+Ruff	ruff
+Xeon	xeon
+DJI	dajiang
 #
-PSP	p s p	10000
-Xbox	x b o x	10000
-Canon	ca non
-Nikon	ni kon
-Nikon	ni kang	10000
+PSP	psp	10000
+Xbox	xbox	10000
+Canon	canon
+Nikon	nikon
+Nikon	nikang	10000
 Arduino	arduino
-Macintosh	m c	10000
+Macintosh	mc	10000
 MIUI	miui	100
-Kindle	k indle	10000
-MacBook Pro	m b p	10000
-MacBook Air	m b a	10000
+Kindle	kindle	10000
+MacBook Pro	mbp	10000
+MacBook Air	mba	10000
 Mac Pro	mac pro	10000
 AirPods	air pods	10000
 Apple Watch	apple watch 10000
 
 # 常用单位
 
-cm	c m	100
-mm	m m	100
-km	k m	100
-kg	k g	100
-ms	m s	100
-ns	n s	100
+cm	cm	100
+mm	mm	100
+km	km	100
+kg	kg	100
+ms	ms	100
+ns	ns	100
 
 
 # 常用软件
-Android Studio	a s	10000
-Bear	b e a r	10000
-Chrome	c h r o	10000
-Telegram	t l	10000
-Typora	t y p o	10000
-Sublime	s l	10000
+Android Studio	as	10000
+Bear	bear	10000
+Chrome	chro	10000
+Telegram	tl	10000
+Typora	typo	10000
+Sublime	sl	10000
 Visual Studio	vs	10000
 Visual Studio Code	vsc	10000
 
 # 新闻厂商厂牌
 
-BBC	b b c	10000
-CCTV	c c t v
-中国中央电视台	c c t v
-CNN	c n n
+BBC	bbc	10000
+CCTV	cctv
+中国中央电视台	cctv
+CNN	cnn
 
 # 电脑软件厂商厂牌 & 软件名 (民用系统、软件，开发用开源库、框架)
 
-Tencent	ten cent
-Oracle	o racle
+Tencent	tencent
+Oracle	oracle
 MySql	mysql
-Mozilla	mo zilla
-Microsoft	mi cro soft
-Microsoft	m s	10000
-SAP	s a p
-Blizzard	bli zzard
-JetBrains	jet brains
+Mozilla	mozilla
+Microsoft	microsoft
+Microsoft	ms	10000
+SAP	sap
+Blizzard	blizzard
+JetBrains	jetbrains
 #
-Arch	a r c h	10000
-Bandwagon	b w g	10000
-CentOS	cen tos
-Firefox	fire fox	10000
-Firefox	f f	10000
-Jenkins	jen kins	10000
-Kubuntu	ku buntu
-Nginx	n g	10000
-QQ	q q	10000
-Ubuntu	u buntu
-Whatsapp	whats app
-Windows	win dows
-Xcode	x code
-Wechat	we chat
-Wordpress	word press
-Telegram	tele gram
+Arch	arch	10000
+Bandwagon	bwg	10000
+CentOS	centos
+Firefox	firefox	10000
+Firefox	ff	10000
+Jenkins	jenkins	10000
+Kubuntu	kubuntu
+Nginx	ng	10000
+QQ	qq	10000
+Ubuntu	ubuntu
+Whatsapp	whatsapp
+Windows	windows
+Xcode	xcode
+Wechat	wechat
+Wordpress	wordpress
+Telegram	telegram
 #
-Ansible	an sible
-Chef	c h e f
-PhpStorm	php storm
-RubyMine	ruby mine
-PyCharm	p y charm
+Ansible	ansible
+Chef	chef
+PhpStorm	phpstorm
+RubyMine	rubymine
+PyCharm	pycharm
 #
-GNU	g n u
-Unix	u n i x
-Rails	r a i l s	10000
-Ruby on Rails	r o r	10000
+GNU	gnu
+Unix	unix
+Rails	rails	10000
+Ruby on Rails	ror	10000
 
 # 游戏、球队厂商厂牌
 
-NBA	n b a	10000
-NCAA	n c a a
-FIFA	f i f a
-GSW	g s w
-Golden State Warriors	g s w
+NBA	nba	10000
+NCAA	ncaa
+FIFA	fifa
+GSW	gsw
+Golden State Warriors	gsw
 Olympics	olymipc
 Olympics	olymipcs
-KOF	k o f
-LOL	l o l
-WOW	w o w
+KOF	kof
+LOL	lol
+WOW	wow
 Warcraft	warcraft
 Warriors	warriors
-World of Warcraft	w o w
-Manchester United m u
+World of Warcraft	wow
+Manchester United mu
 
 # 文化厂商厂牌、节目与艺术家
 
-Wiki	w i k i	10000
+Wiki	wiki	10000
 Wikipedia	wikipedia	10000
-WWYD	w w y d	10000
-MTV	m t v	10000
+WWYD	wwyd	10000
+MTV	mtv	10000
 #
-2Pac	t p a c
-Tupac	t p a c
-Tupac	t u p a c
-Taylor Swift	t s
-JJ	j j
-Jay	j a y
-Lam	l a m
-Chou	c h o u
+2Pac	tpac
+Tupac	tpac
+Tupac	tupac
+Taylor Swift	ts
+JJ	jj
+Jay	jay
+Lam	lam
+Chou	chou
 
 # 其他厂商厂牌
 
@@ -198,30 +198,30 @@ http	http
 HTTP	http
 https	https
 HTTPS	https
-MIPS	m i p s
-OOP	o o p
-Markdown	m d	10000
-Markdown	m a r k d o w n	10000
-API	a p i	10000
-CG	c g	10000
-FM	f m	10000
-IP	i p	10000
-LTS	l t s
-PRAM	p r a m
-RAM	r a m
-ROM	r o m
-SIM	s i m
-ToS	t o s
-Tensor Flow	t s f	10000
+MIPS	mips
+OOP	oop
+Markdown	md	10000
+Markdown	markdown	10000
+API	api	10000
+CG	cg	10000
+FM	fm	10000
+IP	ip	10000
+LTS	lts
+PRAM	pram
+RAM	ram
+ROM	rom
+SIM	sim
+ToS	tos
+Tensor Flow	tsf	10000
 Term of Service	tos	10000
-# Terms of Service	t o s
-TF	t f	10000
-TOC	t o c
-table of contents	t o c
-URL	u r l
-USB	u s b
-Wi-Fi	w i f i
-WiFi	w i f i
+Terms of Service	tos
+TF	tf	10000
+TOC	toc
+table of contents	toc
+URL	url
+USB	usb
+Wi-Fi	wifi
+WiFi	wifi
 #
 Ctrl	ctrl
 Control	ctrl
@@ -237,44 +237,44 @@ esc	esc
 Delete	del
 delete	del
 #
-index	i n d e x
-inline	i n l i n e
-lock	l o c k
-ascii	a s c i i
-code	c o d e
-dev	d e v
-sudo	s u d o
-text	t e x t
-yum	y u m
+index	index
+inline	inline
+lock	lock
+ascii	ascii
+code	code
+dev	dev
+sudo	sudo
+text	text
+yum	yum
 programming	programming
-guide	g u i d e
-W3C	w t h c
-W3C	w s c
-WWW	w w w
-Web	w e b
-World Wide Web	w w w
-IDE	i d e
-VPS	v p s
-DevOps	d e v o p s
+guide	guide
+W3C	wthc
+W3C	wsc
+WWW	www
+Web	web
+World Wide Web	www
+IDE	ide
+VPS	vps
+DevOps	devops
 #-后缀名
-cpp	c p p
-css	c s s
-doc	d o c
-docx	d o c x
-erb	e r b
-html	h t m l
-js	j s
-md	m d
-node	n o d e
-php	p h p
-ppt	p p t
-pptx	p p t x
-py	p y
-rb	r b
-sh	s h
-txt	t x t
-xls	x l s
-xlsx	x l s
+cpp	cpp
+css	css
+doc	doc
+docx	docx
+erb	erb
+html	html
+js	js
+md	md
+node	node
+php	php
+ppt	ppt
+pptx	pptx
+py	py
+rb	rb
+sh	sh
+txt	txt
+xls	xls
+xlsx	xls
 #-特有名词
 状态机
 纯函数
@@ -287,46 +287,47 @@ xlsx	x l s
 
 # 软件技术词汇 - 前端
 
-FrontEnd	f e	100
-FrontEnd	front end	100
-JavaScript	j s	10000
+FrontEnd	fe	100
+FrontEnd	frontend	100
+JavaScript	js	10000
 JavaScript	javascript
-ECMAScript	e c m a
-ECMAScript	e s
-ES6	e s
-ES5 e s
-TypeScript	t s	10000
-CSS	c s s
-CSS3	c s s s
+ECMAScript	ecma
+ECMAScript	es
+ES6	es
+ES5	es
+TypeScript	ts	10000
+CSS	css
+CSS3	css
 CoffeeScript	coffeescript
-ERB	e r b
-Emmet	e m m e t
-HTML	h t m l
-HTML5	h t m l f
-HTML5	h f
-JSLint	j s l i n t
-undefined	un def	10000
-Undefined	un def	1000
-Boolean	b o o l	10000
-Bool	b o o l	10000
-Number	n u m	10000
+ERB	erb
+Emmet	emmet
+HTML	html
+HTML5	html
+HTML5	htmlf
+HTML5	hf
+JSLint	jslint
+undefined	undef	10000
+Undefined	undef	1000
+Boolean	bool	10000
+Bool	bool	10000
+Number	num	10000
 String	string	10000
-Array	a r r	10000
-Object	o b j	10000
-Function	f u n c	10000
-NaN	n a n	10000
-Jquery	j q	100
-AngularJS	n g	100
-AngularJS	a n g u	100
-Vue	v u e	100
-Vue.js	v u e	100
-React	r e a c t	100
-React Native	r n	100
-Webpack	w e b p	100
-ESLint	e s l	100
-gitignore	g i t i	100
-WebSocket	w e b s	100
-GitLab	g l	10000
+Array	arr	10000
+Object	obj	10000
+Function	func	10000
+NaN	nan	10000
+Jquery	jq	100
+AngularJS	ng	100
+AngularJS	angu	100
+Vue	vue	100
+Vue.js	vue	100
+React	react	100
+ReactNative	rn	100
+Webpack	webp	100
+ESLint	esl	100
+gitignore	giti	100
+WebSocket	webs	100
+GitLab	gl	10000
 GitLab	gitlab	100
 
 
@@ -335,44 +336,44 @@ GitLab	gitlab	100
 
 # 软件技术词汇 - 后端
 
-C#	c s h a r p
-Maven	m a v e n
-Perl	p e r l
-Python	p y t h o n
-Ruby	r u b y
-Scala	s c a l a
-Swift	s w i f t
-Objective-C	o b j c
-C++	c p p
-J2EE	j t e e
+C#	csharp
+Maven	maven
+Perl	perl
+Python	python
+Ruby	ruby
+Scala	scala
+Swift	swift
+Objective-C	objc
+C++	cpp
+J2EE	jtee
 Java	java	10000
 
 new	new	10000
-console	c l	10000
+console	cl	10000
 log	log
 Log	log
 debug	debug
 Debug	debug
 
-Elasticsearch	e s	10000
+Elasticsearch	es	10000
 Docker	docker	100
-Vim	v i m	10000
+Vim	vim	10000
 
 
 # 其他词汇
 
-OK	o k	10000
-TV	t v	10000
-FBI	f b i
-CIA	c i a
+OK	ok	10000
+TV	tv	10000
+FBI	fbi
+CIA	cia
 
-DNA	d n a
-DVD	d v d
+DNA	dna
+DVD	dvd
 
-Alpha	a l p h a
-Beta	b e t a
-Delta	d e l t a
-Theta	t h e t a
+Alpha	alpha
+Beta	beta
+Delta	delta
+Theta	theta
 
 Administrator	admin	100
 Admin	admin	100
@@ -382,82 +383,82 @@ admin	admin	100
 
 # Math
 
-∵	b e c a u s e
-∵	yin wei	1000
-∴	t h e r e f o r e
-∴	suo yi	1000
-~	s i m
-∈	i n
-⊂	s u b s e t
-⊆	s u b s e t e q
-∑	s u m
-∏	p r o d
-∫	i n t
-∮	o i n t
-∀	f o r a l l
-∃	e x i s t s
-∇	n a b l a
-∆	t r i a n g l e
-∞	i n f t y
-∞	wu xian	1000
-≐	d o t e q
+∵	because
+∵	yinwei	1000
+∴	therefore
+∴	suoyi	1000
+~	sim
+∈	in
+⊂	subset
+⊆	subseteq
+∑	sum
+∏	prod
+∫	int
+∮	oint
+∀	forall
+∃	exists
+∇	nabla
+∆	triangle
+∞	infty
+∞	wuxian	1000
+≐	doteq
 
 # Greek alphabet
 
-Α	a l p h a	10
-Β	b e t a	10
-Γ	g a m m a	10
-Δ	d e l t a	10
-Ε	e p s i l o n	10
-Ζ	z e t a	10
-Η	e t a	10
-Θ	t h e t a	10
-Ι	i o t a	10
-Κ	k a p p a	10
-Λ	l a m b d a	10
-Μ	m u	10
-Ν	n u	10
-Ξ	x i	10
-Ο	o m i c r o n	10
-Π	p i	10
-Ρ	r h o	10
-Σ	s i g m a	10
-Τ	t a u	10
-Υ	u p s i l o n	10
-Φ	p h i	10
-Χ	c h i	10
-Ψ	p s i	10
-Ω	o m e g a	10
-α	a l p h a	10
-β	b e t a	10
-γ	g a m m a	10
-δ	d e l t a	10
-ε	e p s i l o n	10
-ζ	z e t a	10
-η	e t a	10
-θ	t h e t a	10
-ι	i o t a	10
-κ	k a p p a	10
-λ	l a m b d a	10
-μ	m u	10
-ν	n u	10
-ξ	x i	10
-ο	o m i c r o n	10
-π	p i	10
-ρ	r h o	10
-σ	s i g m a	10
-τ	t a u	10
-υ	u p s i l o n	10
-φ	p h i	10
-χ	c h i	10
-ψ	p s i	10
-ω	o m e g a	10
+Α	alpha	10
+Β	beta	10
+Γ	gamma	10
+Δ	delta	10
+Ε	epsilon	10
+Ζ	zeta	10
+Η	eta	10
+Θ	theta	10
+Ι	iota	10
+Κ	kappa	10
+Λ	lambda	10
+Μ	mu	10
+Ν	nu	10
+Ξ	xi	10
+Ο	omicron	10
+Π	pi	10
+Ρ	rho	10
+Σ	sigma	10
+Τ	tau	10
+Υ	upsilon	10
+Φ	phi	10
+Χ	chi	10
+Ψ	psi	10
+Ω	omega	10
+α	alpha	10
+β	beta	10
+γ	gamma	10
+δ	delta	10
+ε	epsilon	10
+ζ	zeta	10
+η	eta	10
+θ	theta	10
+ι	iota	10
+κ	kappa	10
+λ	lambda	10
+μ	mu	10
+ν	nu	10
+ξ	xi	10
+ο	omicron	10
+π	pi	10
+ρ	rho	10
+σ	sigma	10
+τ	tau	10
+υ	upsilon	10
+φ	phi	10
+χ	chi	10
+ψ	psi	10
+ω	omega	10
 
 # ################## simple english ###################################
 
-abc	a b c
-ABC	a b c
-APP	a p p
+abc	abc
+ABC	abc
+APP	app
 bullshit	bullshit
 can't	cant
 champion	champion
@@ -466,7 +467,7 @@ clear	clear
 config	config
 cookie	cookie
 couldn't	couldnt
-cup	c u p
+cup	cup
 custom	custom
 didn't	didnt
 don't	dont
@@ -482,35 +483,35 @@ ground	ground
 hadn't	hadnt
 have	have
 haven't	havent
-id	i d
-if	i f
-in	i n
+id	id
+if	if
+in	in
 loop	loop
 mobile	mobile
 next	next
 object	object
-off	o f f
-on	o n
+off	off
+on	on
 option	option
 patch	patch
-pie	p i e
-play	p l ay
+pie	pie
+play	play
 render	render
 return	return
 round	round
 session	session
 switch	switch
 turn	turn
-up	u p
-win	w i n
+up	up
+win	win
 
-please	p l s
-bullshit	b s
+please	pls
+bullshit	bs
 
 
 # ################## more glossary ###################################
 
-example	e g	10000
+example	eg	10000
 
 Sierra	sierra	100
 Mojave	mojave	100
