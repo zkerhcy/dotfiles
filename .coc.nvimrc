@@ -39,7 +39,7 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Or use `complete_info` if your vim support it, like:
 " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 
-" Use `[g` and `]g` to navigate diagnostics
+" Use `[d` and `]d` to navigate diagnostics
 nmap <silent> ]d <Plug>(coc-diagnostic-prev)
 nmap <silent> [d <Plug>(coc-diagnostic-next)
 
@@ -159,8 +159,8 @@ map <leader>e :CocCommand explorer --toggle --sources=buffer+,file+<CR>
 
 " Git
 " navigate chunks of current buffer
-nmap ]g <Plug>(coc-git-prevchunk)
-nmap [g <Plug>(coc-git-nextchunk)
+nmap <silent> ]g <Plug>(coc-git-prevchunk)
+nmap <silent> [g <Plug>(coc-git-nextchunk)
 " show chunk diff at current position
 nmap gs <Plug>(coc-git-chunkinfo)
 " show commit contains current position
