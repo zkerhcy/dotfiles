@@ -30,9 +30,80 @@ scp	s c p	10000
 ssh	s sh	10000
 vim	v i m	10000
 
-# work
+# 常用词汇
+Chrome	c h r	10000
+Firefox	f f	10000
+Wikipedia	w k	10000
+Wiki	w k	10000
+Git	g i t	10000
+GitHub	g i t	10000
+GitLab	g i t	10000
+You	yo u	10000
+Your	yo u	10000
+Your's	yo u	10000
+YouTube	yo u	10000
+
+Access	access	10000
+Accessibility	access	10000
+Accessibility	ax	10000
+
+Cache-Control	cc	1000
+HTTP/0.9	http
+HTTP/1.0	http
+HTTP/1.1	http
+HTTP/2	http
+HTTP/3	http
+HTTP Request Headers	hrh	1000
+HTTP Response Headers	hrh	1000
+
+iCloud	icl	10000
+iPod	ipod	10000
+iPod classic	ipod	10000
+iPod Nano	ipod	10000
+iPod Shuffle	ipod	10000
+iPod Touch	ipod	10000
+AirPods	airp	10000
+AirPods Pro	airp	10000
+Macintosh	mac	10000
+MacBook	mac	10000
+MacBook Pro	mac	10000
+MacBook Air	mac	10000
+Mac Pro	mac	10000
+Mac Mini	mac	10000
+iMac	mac	10000
+iMac Pro	mac	10000
+💻️	mac	10000
+Apple ID	apple i	10000
+Apple Music	apple m	10000
+Apple Park	apple p	10000
+Apple Pay	apple p	10000
+Apple Pencil	apple p	10000
+App Store	app s	10000
+Apple Store	apple s	10000
+Apple TV	apple t	10000
+Apple TV+	apple t	10000
+Apple Watch	apple w	10000
+iPad Air	ipada	10000
+iPad Pro	ipad p	10000
+iPad Mini	ipad m	10000
+HomdPod	home p	10000
+
+# CS
+TCP	t c p	10000
+TCP/IP	t c p	10000
+UDP	u d p	10000
 
 DOMContentLoaded	d c l	10000
+JSX	j s	10000
+JS	j s	10000
+undefined	undef	10000
+ESLint	e s l	10000
+
+
+# work
+Zoom Phone Web	z p w	10000
+Zoom Phone	z p	10000
+
 
 # Tech
 WWDC	w w d c	10000
@@ -40,7 +111,13 @@ WWDC	w w d c	10000
 # emoji
 🙏	xie xie	1
 🙏	x x	1
+👍	da mu zhi	1
+👍	dian zan	1
+🔫	shui qiang	1
+
 
 # etc..
 CD	c d	10000
+OK	ok	10000
+Ok	ok	10000
 了	l	100000
