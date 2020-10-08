@@ -1953,7 +1953,7 @@ use_preset_vocabulary: false
 👨‍👩‍👦‍👦	shuang long zhi jia	1
 👨‍👩‍👦‍👦	yi jia si kou	1
 👨‍👩‍👧	yi jia san kou	1
-👨‍👩‍👧‍👦	jia you er nu	1
+👨‍👩‍👧‍👦	jia you er nv	1
 👨‍👩‍👧‍👦	yi jia si kou	1
 👨‍👩‍👧‍👧	yi jia si kou	1
 👨‍👩‍👧‍👧	shuang feng zhi jia	1
@@ -2210,6 +2210,7 @@ use_preset_vocabulary: false
 💪	qiang zhuang	1
 💪	xiu ji rou	1
 💪	xin qing	1
+💪	li liang	1
 💫	tou yun mu xuan	1
 💫	xin qing	1
 💫	yun tou zhuan xiang	1

@@ -238,6 +238,9 @@ esac
 alias what='tldr'
 eval $(thefuck --alias)
 
+if [ -e "$HOME/configs/z.sh" ]; then
+    source $HOME/configs/z.sh
+fi
 
 # added by travis gem
 [ -f /Users/Macintosh/.travis/travis.sh ] && source /Users/Macintosh/.travis/travis.sh
