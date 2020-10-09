@@ -56,6 +56,7 @@ HTTP/3	http
 HTTP Request Headers	hrh	1000
 HTTP Response Headers	hrh	1000
 
+iPhone	ip	10000
 iCloud	icl	10000
 iPod	ipod	10000
 iPod classic	ipod	10000
@@ -83,6 +84,7 @@ Apple Store	apple s	10000
 Apple TV	apple t	10000
 Apple TV+	apple t	10000
 Apple Watch	apple w	10000
+Apple Watch	aw	10000
 iPad Air	ipada	10000
 iPad Pro	ipad p	10000
 iPad Mini	ipad m	10000
